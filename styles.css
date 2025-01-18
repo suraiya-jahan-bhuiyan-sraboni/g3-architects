@@ -258,6 +258,7 @@ footer {
     margin-top: 3rem;
     margin-bottom: 6rem;
 }
-footer>p{
+.footer-text{
     color: var(--dark-02);
+    font-weight: 500;
 }
