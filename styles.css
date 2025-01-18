@@ -93,8 +93,13 @@ nav {
     font-size: var(--primary-font);
     font-weight: 600;
     cursor: pointer;
+    transition:  transform 0.3s ease, box-shadow 0.3s ease;
 }
+.explore:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 
+}
 .banner-img {
     width: 100%;
 }
@@ -250,3 +255,4 @@ footer {
     margin-top: 3rem;
     margin-bottom: 6rem;
 }
+
