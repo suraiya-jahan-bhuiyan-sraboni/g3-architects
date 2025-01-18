@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Work Sans";
+}
+
+:root {
+    --dark-01: #131313;
+    --dark-02: #424242;
+    --dark-03: #727272;
+    --color-primary: #FF900E;
+    --bg-primary: rgba(255, 144, 14, 0.1);
+    --primary-font: 0.9rem;
+    --secondary-font: 1.2rem;
+    --primary-heading-font-size: 2.8rem;
+    --secondary-heading-font-size: 2rem;
+    --primary-padding: 2rem 8rem;
+    --primary-border-radius: 8px;
+}
+
+p {
+    color: var(--dark-03);
+    /*     text-align: center; */
+    font-size: var(--primary-font);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+img {
+    border-radius: var(--primary-border-radius);
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+/* --------------------------------------------------header--------------------------------------- */
+header {
+    padding: var(--primary-padding);
+    background-color: var(--bg-primary);
+}
+
+/* ----------------- nav bar design----------------- */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 1rem;
+}
+
+.menu-item {
+    color: var(--dark-02);
+    font-size: var(--primary-font);
+    font-weight: 550;
+}
+
+.menu-item:hover {
+    cursor: pointer;
+    color: var(--color-primary);
+}
+
+/* ----------------banner design --------------- */
+.banner-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+}
+
+.banner-title {
+    font-size: var(--primary-heading-font-size);
+}
+
+.explore {
+    color: white;
+    background-color: var(--color-primary);
+    border: none;
+    border-radius: var(--primary-border-radius);
+    padding: 1rem;
+    font-size: var(--primary-font);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+/* ----------------------quick list feature section--------------------------------- */
+.quick-list-feature {
+    margin: var(--primary-padding);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.featur-title {
+    font-size: var(--primary-heading-font-size);
+}
+
+.teams-images {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.quick-list-feature-details {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: start;
+    text-align: start;
+}
+
+/* -------------------------- features section design -------------------------- */
+.features {
+    padding: var(--primary-padding);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.features-details {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.features-img {
+    width: 55%;
+}
+
+.feature-title {
+    font-size: var(--secondary-heading-font-size);
+    border-left: 5px solid var(--color-primary);
+    padding-left: 10px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: var(--primary-border-radius);
+    padding: 1rem;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.btn {
+    position: relative;
+    margin-left: -3rem;
+    margin-top: -3rem;
+}
+
+/* ----------------------------- some facts section-------------------------------------- */
+.some-facts {
+    padding: var(--primary-padding);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.fact-cards {
+    margin: 2rem;
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3.5rem;
+
+}
+
+.fact-card {
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: var(--primary-border-radius);
+    border: 2px solid var(--color-primary);
+}
+
+.fact-card>img {
+    width: 30%;
+    height: 30%;
+}
+
+.facts-text {
+    width: 50%;
+}
+
+.number {
+    color: var(--dark-02);
+}
+
+/* -------------------------------our sponspors section----------------------------------- */
+.sponsors {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.sponsor-card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    filter: grayscale(100%)
+}
+
+.sponsor-card img {
+    width: 12%;
+}
+
+/* ------------------------------footer---------------------- */
+footer {
+    color: var(--dark-02);
+    font-size: var(--secondary-font);
+    border-radius: var(--primary-border-radius);
+    background-color: var(--bg-primary);
+    margin: var(--primary-padding);
+    padding: 1rem;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}

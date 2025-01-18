@@ -1,0 +1,87 @@
+@media screen and (max-width:997px) {
+    :root {
+        --primary-font: 0.8rem;
+        --secondary-font: 1.1rem;
+        --primary-heading-font-size: 2.4rem;
+        --primary-padding: 2rem 4rem;
+    }
+/* --------------------------------------------------header--------------------------------------- */
+    .banner-details {
+        width: 90%;
+        padding: 1rem;
+    }
+
+
+/* -------------------------- features section design -------------------------- */
+
+
+
+/* ----------------------------- some facts section-------------------------------------- */
+.fact-cards{
+    gap: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media screen and (max-width:768px) {
+
+
+:root{
+    --primary-heading-font-size: 1.8rem;
+}
+
+/* ----------------- quick-list-feature section ----------------------------- */
+.quick-list-feature {
+    flex-direction: column-reverse;
+}
+
+.teams-images {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.quick-list-feature-details {
+    width: 100%;
+}
+/* -------------------------- features section design -------------------------- */
+.features{
+    flex-direction: column;
+}
+.features-img,.features-details  {
+    width: 100%;
+
+}
+/* ----------------------------- some facts section-------------------------------------- */
+.fact-cards {
+    margin: 1rem;
+    grid-template-columns: repeat(2,1fr);
+}
+.facts-text{
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+
+}

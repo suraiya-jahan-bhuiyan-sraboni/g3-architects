@@ -1,0 +1,75 @@
+@media screen and (max-width:600px) {
+
+    :root {
+        --primary-font: 0.7rem;
+        --secondary-font: 1rem;
+        --primary-heading-font-size: 2rem;
+        --primary-padding: 1rem 1.5rem;
+    }
+/* --------------------------------------------------header--------------------------------------- */
+    nav {
+        align-items: center;
+        gap: 1rem;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .nav-menu {
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+/* ----------------- quick-list-feature section ----------------------------- */
+.teams-images {
+    grid-template-columns: repeat(1, 1fr);
+
+}
+
+
+/* -------------------------- features section design -------------------------- */
+
+
+
+.btn{
+    margin-left: -2rem;
+}
+
+/* ----------------------------- some facts section-------------------------------------- */
+.fact-cards {
+    margin: 1rem;
+    gap: 2rem;
+}
+.facts-text {
+    width: 90%;
+}
+
+/* -------------------------------our sponspors section----------------------------------- */
+.sponsor-card {
+    gap: 2rem;
+}
+.sponsor-card img {
+    width: 20%;
+}
+
+
+
+}
+
+
+@media screen and (max-width:400px) {
+
+/* ----------------------------- some facts section-------------------------------------- */
+    .fact-cards {
+        padding: 2rem;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .facts-text {
+        width: 100%;
+    }
+
+
+
+}
