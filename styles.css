@@ -248,7 +248,7 @@ nav {
 
 /* ------------------------------footer---------------------- */
 footer {
-    color: var(--dark-02);
+    
     font-size: var(--secondary-font);
     border-radius: var(--primary-border-radius);
     background-color: var(--bg-primary);
@@ -258,4 +258,6 @@ footer {
     margin-top: 3rem;
     margin-bottom: 6rem;
 }
-
+footer>p{
+    color: var(--dark-02);
+}
