@@ -57,11 +57,14 @@ nav {
     color: var(--dark-02);
     font-size: var(--primary-font);
     font-weight: 550;
+    transition: all ease-in-out 1s;
 }
 
 .menu-item:hover {
     cursor: pointer;
     color: var(--color-primary);
+    font-size: 1.2rem;
+    
 }
 
 /* ----------------banner design --------------- */
